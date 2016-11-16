@@ -75,7 +75,7 @@ input {
     top: 10px;
 }
 
-button {
+#searchbutton {
     background-color: #4285F4;
     position: absolute;
     top: 10px;
@@ -140,12 +140,31 @@ li {
 
 .navbar button {
     background-color: #f3f3f6;
+    border: 1px solid #d3d3de;
+    box-shadow: none;
+    position: absolute;
+    top: 20px;
+    height: 28px;
+    border-radius: 2px;
 }
 
-button #gear {
-    position: absolute;
+#allresults {
+    right: 154px;
+    width: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#privateresults {
+    right: 115px;
+    width: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#settings {
     right: 30px;
-    top: 100px;
+    width: 70px;
 }
 
 /* SEARCH RESULTS */
@@ -154,4 +173,97 @@ button #gear {
     margin-top: 140px;
     margin-left: 120px;
     width: 650px;
+}
+
+.related {
+    border-bottom: 1px solid #d3d3de;
+    border-top: 1px solid #d3d3de;
+    height: 150px;
+}
+
+h3 {
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.related li {
+    display: block;
+    margin-left: -40px;
+}
+
+.related ul {
+    position: relative;
+    top: -10px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #03199b;
+    margin-top: 0px;
+}
+
+.related .col2 {
+    position: relative;
+    top: -112px;
+    left: 140px;
+}
+
+.pages {
+    width: 350px;
+    position: absolute;
+    left: 250px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.arrow {
+    font-size: 20px;
+    margin-left: 18px;
+}
+
+.pages ul {
+    font-size: 14px;
+    position: relative;
+    top: -12px;
+    right: 25px;
+}
+
+.pages li {
+    margin: 2.5px;
+}
+
+.next {
+    position: relative;
+    right: -40px;
+
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 120px;
+    width: 100%;
+    background-color: #f3f3f6;
+    height: 60px;
+    border-top: 1px solid #d3d3de;
+    color: #6d6d6d;
+    font-size: 14px;
+}
+
+.footer div {
+    background-color: #6d6d6d;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.footer ul {
+    font-size: 14px;
+    position: relative;
+    left: -40px;
+    margin-bottom: 20px;
 }
